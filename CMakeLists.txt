@@ -4,13 +4,9 @@ include_directories(SYSTEM
     ./
 )
 
-ADD_DEFINITIONS(
-    -std=c++11
-)
-
 # enum your files
 add_executable(executable
-    dzwork.cpp
+	dzwork.cpp
 )
 
 target_link_libraries(executable)
