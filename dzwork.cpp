@@ -22,7 +22,7 @@ int main()
 	{
 		number1 = (n / 10) % 10 * 100 + n % 10 + (n / 100) % 10 * 10;
 	}
-	std::cout << " Number = " << number1 << std::endl;
+	std::cout << " Number = " << number1 << std::endl
 	//
 	return 0;
 }
