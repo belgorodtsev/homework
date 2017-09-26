@@ -10,6 +10,7 @@ ADD_DEFINITIONS(
 
 # enum your files
 add_executable(executable
+dzwork.cpp
 )
 
 target_link_libraries(executable)
