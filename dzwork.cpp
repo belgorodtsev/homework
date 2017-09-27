@@ -2,7 +2,7 @@
 #include <iostream>
 
 int main()
-{   //
+{   //1
 	std::cout << " Enter a three-digit number " << std::endl;
 	int number = 0;
 	std::cin >> number;
@@ -12,7 +12,7 @@ int main()
 	number = number * 10 + b;
 	std::cout << number << std::endl;
 	//
-	//
+	//2
 	std::cout << " Enter a number N" << std::endl;
 	int n = 0;
 	std::cin >> n;
