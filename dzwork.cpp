@@ -17,14 +17,14 @@ int main()
     std::cin >> n;
     int number1 = 0;
     if (n >= 10 && n <= 999)
-	{
-		number1 = (n / 10) % 10 * 100 + n % 10 + (n / 100) % 10 * 10;
-		std::cout << " Number = " << number1 << std::endl;
-	}
-	else
-	{
-		std::cout << "error!" << std::endl;
-	}
+    {
+        number1 = (n / 10) % 10 * 100 + n % 10 + (n / 100) % 10 * 10;
+        std::cout << " Number = " << number1 << std::endl;
+    }
+    else
+    {
+        std::cout << "error!" << std::endl;
+    }
     //
     return 0;
 }
