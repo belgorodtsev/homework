@@ -23,5 +23,5 @@ int main()
     }
     std::cout << " Number = " << number1 << std::endl;
     //
-    return 0;		
+    return 0;	
 }
