@@ -2,7 +2,8 @@
 #include <iostream>
 
 int main()
-{	//Вариант2
+{ //Вариант2
+	
 	//5
 	std::cout << " Enter a three-digit number " << std::endl;
 	int number = 0;
